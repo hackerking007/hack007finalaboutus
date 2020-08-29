@@ -312,7 +312,8 @@
 }
 
 .donors .donors_input {
-    background: #fed136 none repeat scroll 0 0;
+    background: rgb(90, 88, 88) none repeat scroll 0 0;
+    background: cover;
     float: left;
     height: 600px;
     text-align: center;
@@ -321,7 +322,7 @@
 
 .donors .donors_input h2,
 .donors .donors_image h2 {
-    color: #000;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -334,7 +335,7 @@
 }
 
 .donors .donors_input p {
-    color: black;
+    color: whitesmoke;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -409,15 +410,17 @@
 .donors .donors_image .item img {
     border-radius: 50%;
     margin: 0 auto 30px;
-    width: 200px;
+    width: 160px;
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 .donors .donors_image .item h3 {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
+    margin-top: -1rem;
+    color: black;
 }
 
 .donors .donors_image .item p {
@@ -487,6 +490,7 @@
   
   #about .about-col .img img {
     border-radius: 4px 4px 0 0;
+    height: 215px;
   }
   
   #about .about-col .icon {

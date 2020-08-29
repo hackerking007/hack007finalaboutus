@@ -415,6 +415,9 @@
 }
 
 @media only screen and (max-width: 430px) {
+    .donors .donors_image .item h3{
+        color: white;
+    }
     .donate_section .for-padding {
         padding: 40px 20px 60px;
     }
@@ -436,7 +439,7 @@
 }
 
     .donors .donors_image {
-        background: #fed136 none repeat scroll 0 0;
+        background: rgb(90, 88, 88) none repeat scroll 0 0;
         float: left;
         width: 100%;
         height: 300px;
@@ -475,7 +478,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-
+   
 
 
     .donors .donors_image .item {
@@ -508,7 +511,7 @@
     }
 
     .donors .donors_image {
-        background: #fed136 none repeat scroll 0 0;
+        background: rgb(90, 88, 88) none repeat scroll 0 0;
         float: left;
         width: 100%;
         height: 300px;
@@ -535,7 +538,9 @@
 }
 
 @media only screen and (max-width: 325px) {
-
+    .donors .donors_input p{
+        font-weight: 400;
+    }
     .our_activity .single-Promo h2.vision a {
         margin-left: 60px;
     }
