@@ -677,6 +677,9 @@
   .member-card .member-social-strip a:hover {
     color: #18d26e;
   }
+  .last-member{
+    height:328px;
+  }
   .section-header h3 {
     font-size: 32px;
     color: #111;

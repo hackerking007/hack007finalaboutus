@@ -1,4 +1,15 @@
+@media screen and (min-width: 769px){
+    button.button-2{
+        display:none;
+    }
+    #text{
+        display: block!important;
+    }
+}
 @media (min-width: 992px) and (max-width: 1300px) {
+    #text{
+        display: block!important;
+    }
     .header .header-bottom .menu ul li a {
         padding-left: 17px;
     }
@@ -34,9 +45,20 @@
     .donors .donors_input h4 select {
         max-width: 483px;
     }
+    .donors .donors_input p {
+        
+        font-size: 15px;
+        
+        margin: 0px 35px;
+       
+    }
+    .last-member{
+        height:290px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    
     .header .header-bottom .main-logo {
         margin: 10px 0;
         text-align: center;
@@ -164,16 +186,30 @@
 
         padding: 8px 20px;
     }
+    .member-card .member-name {
+        
+        font-size: 15px!important;
+        
+    }
+    .last-member {
+        height: 218px;
+    }
+    .testimonials{
+        margin-top:0px;
+    }
 }
 @media (min-width:769px){
     /*button#myBtn{
         display:none!important;*/
+        
     }
-}
+
 @media only screen and (max-width: 767px) {
     /*.hide{
         display: none!important;*/
-    }
+        #text{
+            display:none;
+            }
     .header .header-bottom .menu ul li a {
         margin-right: 20px;
         padding-left: 20px;
@@ -374,7 +410,7 @@
 
     }
 
-
+    
 
 }
 
@@ -396,7 +432,7 @@
     font-weight: 700;
     position: relative;
     padding-bottom: 15px;
-    margin-top: 28rem;
+    margin-top: 23rem;
 }
 
     .donors .donors_image {
@@ -425,7 +461,17 @@
         padding: 15px 90px;
 
     }
+    
 
+.member-card .member-name {
+   
+    font-size: 18px;
+    
+}
+#about .container {
+   
+    margin-top: -400px;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -479,14 +525,17 @@
     .know-button {
         padding: 15px 70px;
     }
+    #about .container {
+        margin-top: -400px;
+    }
+    .testimonials{
+        margin-top:350px;
+    }
 
 }
 
 @media only screen and (max-width: 325px) {
-    #about .container {
-  
-    margin-top: -450px;
-}
+
     .our_activity .single-Promo h2.vision a {
         margin-left: 60px;
     }
@@ -506,7 +555,7 @@
 
     .donors .donors_image {
 
-        height: 450px;
+        height: 330px;
     }
 
     .our_activity .bottom-activity {
@@ -526,6 +575,10 @@
     padding-bottom: 15px;
    
 }
+#about .container {
+ 
+    margin-top: -420px;
+}
 }
 @media only screen and (max-width: 325px) {
 
@@ -544,8 +597,21 @@
     font-weight: 700;
     position: relative;
     padding-bottom: 15px;
-    margin-top: 28rem;
+    margin-top: 23rem;
     
 }
+.donors .donors_image {
+    height: 450px;
+}
+.donors .donors_image .item img {
+    margin-top: 345px;
+}
+.testimonials{
+    margin-top:500px;
+}
+.last-member {
+    height: 290px;
+}
+
 }
 
