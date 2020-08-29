@@ -445,7 +445,7 @@
     font-weight: 700;
     position: relative;
     padding-bottom: 15px;
-    margin-top: 28rem;
+    
 }
     .donors .donors_image .item img {
 
@@ -501,7 +501,7 @@
 
     .donors .donors_image .item img {
 
-        margin-top: 340px;
+        margin-top: 200px;
     }
 
     .donors .donors_image {
@@ -525,6 +525,27 @@
     position: relative;
     padding-bottom: 15px;
    
+}
+}
+@media only screen and (max-width: 325px) {
+
+
+
+    .donors .donors_image .item {
+
+
+        margin-top: -140px;
+    }
+    .section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 28rem;
+    
 }
 }
 
